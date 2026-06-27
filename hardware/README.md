@@ -29,3 +29,5 @@ Because each board is only responsible for transmitting when it finds a specific
 
 | **From BW16** | **To HeltecV3** |
 | PA7 (LOG_TX) | Pin 8 (GPIO41) |
+
+# Measurements

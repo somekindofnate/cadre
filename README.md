@@ -49,7 +49,14 @@ This will eventually contain a step-by-step guide for how to wire the project, b
 | 5.8ghz antenna | $18.47 | [Amazon](https://www.amazon.com/dp/B0GL7QSNNK) |
 | USB Power bank | $16.99 | [Amazon](https://www.amazon.com/dp/B0FGDCY95C) |
 
-Antennas, power banks, and USB splitters are all optional if you have you own or want to power the boards a different way. All boards need to share a common ground, and a single USB cable was a way to simplify that.
+
+**Considerations**
+
+- The listed antenna is purpose-built for drone application, but any antenna for 2.4ghz and 5.8ghz will suffice.
+
+- For power banks, the listed USB power bank is sufficient for 12+ hours of use, but any USB power bank will work.
+
+- If you choose to forego the 3-pronged USB and wire the boards a different way, they will need a shared ground wire.
 
 # Wiring
 Because each board is only responsible for transmitting when it finds a specific piece of data, the wiring is extremely pared back.
